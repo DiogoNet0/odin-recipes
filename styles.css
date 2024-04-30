@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    background-color: #274c77;
+}
+
+.font {
+    font-family: Roboto, "Times New Roman", sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    color: #8b8c89;
+}
+
+#subtitle {
+    text-align: center;
+    color: #8b8c89;
+}
+
+.chef-pic {
+    
+}
+
+.recipe-list {
+    text-align: center;
+    color: #8b8c89;
+}
