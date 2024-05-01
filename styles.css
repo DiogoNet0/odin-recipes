@@ -12,15 +12,19 @@
     text-align: center;
     font-size: 36px;
     color: #8b8c89;
+    padding: 18px;
+    margin: auto;
 }
 
 #subtitle {
     text-align: center;
     color: #8b8c89;
+    padding: 8px;
 }
 
 .chef-pic {
-    
+    margin: auto;
+
 }
 
 .recipe-list {
