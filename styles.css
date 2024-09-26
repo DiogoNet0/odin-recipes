@@ -1,33 +1,76 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #b7e0ff;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration-style: none;
+  text-decoration: none;
+  color: #e78f81;
+}
+
 * {
-  background-color: #274c77;
+  box-sizing: border-box;
 }
 
 .font {
   font-family: Roboto, "Times New Roman", sans-serif;
 }
 
-.title {
+.hero,
+.recipe-list {
   text-align: center;
-  font-size: 36px;
-  color: #8b8c89;
-  padding: 18px;
-  margin: auto;
 }
 
-#subtitle {
-  text-align: center;
-  color: #8b8c89;
-  padding: 8px;
+.hero {
+  margin: 0.5rem;
+  color: #fff5cd;
+  background-color: #e78f81;
+  padding: 18px;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.subtitle {
+  font-size: 2rem;
 }
 
 .chef-pic {
-  margin: auto;
+  height: 20vh;
+}
+
+.recipe-section {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  flex: 1;
 }
 
 .recipe-list {
-  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  flex: 1;
   color: #8b8c89;
+  list-style: none;
+  font-size: 2rem;
 }
 
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+}
